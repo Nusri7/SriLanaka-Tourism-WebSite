@@ -1,0 +1,201 @@
+.nav{
+    
+    background-color: #232323;
+    border: 0;
+    top: 0;
+    display: flex; 
+    justify-content: space-between;   
+    flex-wrap: wrap;
+    
+    
+
+    
+}
+a {
+    text-decoration: none;
+    color: #d0dbda;
+    transition: color .3s;
+}
+
+.nav_list{
+   width: auto; 
+   display: flex;
+   
+   
+} 
+
+.nav_items{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.2rem 0.7rem;
+    font-size: 18px;
+    
+}
+.nav_items > a:hover {
+    color: #fff;
+}
+
+body {
+  background-color: #333;
+    margin: 0;
+}
+
+.nav_logo {
+    width: 150px ;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+/*toDo*/
+.container {
+    max-width: 960px;
+    height: 500px;
+     margin: 0 auto;
+     margin-top: 30px;
+     box-shadow: 0px 0 20px 0px #1e272e;
+     overflow: scroll;
+     background-color: #dfe4ea;
+}
+.container >h1, .todo_input, .update_delete {
+    padding: 10px;
+    color:#1b0760;
+    text-align: center;
+    background-color: #0652DD;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#app {
+    margin-bottom: 10px;
+}
+
+.todo_input, .update_delete {
+    padding-left: 10px;
+    font-size: 30px;
+}
+ol> button{
+
+    padding: 5px;
+    margin: 10px;
+}
+button, input {
+  
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  border: 0;
+  display: inline;
+
+}
+#message > div{
+    width: 300px;
+    display: inline table;
+    background-color: #9c88ff;
+    border-radius: 2px;
+    box-shadow: #5E5DF0 0 5px 10px -2px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: 600;
+    padding: 7px 20px;
+    text-align: center;
+    border: 0;
+    font-size: 16px;
+   
+  
+}
+button {
+  margin-bottom: 20px;
+}
+
+
+/*footer */
+.footer {
+    background-color: #232323;
+    padding-top: 3.5rem;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    
+  
+}
+.footer a {
+    color: #777;
+    transition: color 0.3s;
+  }
+  .footer a:hover {
+    color: #fff;
+  }
+  .footer__section {
+    padding: 2rem;
+    border-bottom: 1px solid #393939;
+    
+    border: 0;
+  }
+  .footer__section .list {
+    margin: 0;
+    
+  }
+  .heading2,.heading1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    color: #fff;
+
+    
+  }
+  .footer__brand {
+    margin-top: 5rem;
+    text-align: center;
+    order: -1;
+    margin-top: 1rem;
+  }
+  .footer__brand img {
+    
+    max-width: 250px;
+  }
+  .footer__copyright {
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.2;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer_content {
+    opacity: 1;
+    max-height: 100%;
+  }
+  .footer_container {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .list  {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+  }
+  .hotline {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #777;
+    
+  }
+
+  #hot_line_no {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: #777;
+    margin-left: 50px;
+  }
