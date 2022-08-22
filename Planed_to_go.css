@@ -46,6 +46,7 @@ body {
     
 }
 /*toDo*/
+
 .container {
     max-width: 960px;
     height: 500px;
@@ -101,7 +102,7 @@ button, input {
 }
 #message > div{
     width: 300px;
-    display: inline table;
+    display: inline;
     background-color: #9c88ff;
     border-radius: 2px;
     box-shadow: #5E5DF0 0 5px 10px -2px;
@@ -118,6 +119,7 @@ button, input {
 button {
   margin-bottom: 20px;
 }
+
 
 
 /*footer */
